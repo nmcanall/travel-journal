@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Full page styling */
+.App {
+    margin: 0;
+    font-family: "Inter", "sans-serif";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    background: #F55A5A;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.header--globe {
+    padding: 5px 10px 5px 10px;
+}
+
+.header--title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -.075em;
+    color: white;
+}
+
+/* Locations styling */
+
+/* Travel Card styling */
+.card {
+    display: flex;
+    height: 168px;
+    width: 470px;
+    padding: 30px;
+    align-items: center;
+    color: #2B283A;
+}
+
+.card--trip-pic {
+    border-radius: 15px;
+    padding-inline: 10px;
+}
+
+.card--location-items {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.card--marker {
+    color: #F55A5A;
+}
+
+.card--broad-location {
+    text-transform: uppercase;
+    letter-spacing: .17em;
+    font-weight: 400;
+}
+
+.card--google-maps {
+    color: #918E9B;
+    font-size: 10px;
+}
+
+.card--specific-location {
+    font-size: 25px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+.card--dates {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.card--description {
+    text-align: justify;
+    font-size: 10px;
+}
