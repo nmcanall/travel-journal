@@ -41,28 +41,31 @@ header {
 /* Travel Card styling */
 .travel-card {
     display: flex;
-    height: 168px;
-    width: 470px;
-    padding: 30px;
+    padding: 1% 5% 1% 2%;
     align-items: center;
     color: #2B283A;
-    box-sizing: content-box;
+}
+
+.card--img-container {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .card--modal-btn {
     border: none;
-    margin-inline: 10px;
-    height: 100%;
+    display: flex;
 }
 
 .card--trip-pic {
     border-radius: 15px;
-    height: 100%;
+    max-height: 168px;
+    max-width: 100%;
 }
 
 .card--trip-pic:hover {
     opacity: 0.7;
-    border-radius: 15px;
 }
 
 .card--location-items {
@@ -152,12 +155,7 @@ header {
     background-color: #d3d4ced2;
 }
 
-.modal--img-landscape {
-    width: 100%;
-    height: auto;
-}
-
-.modal--img-portrait {
+.modal--img {
     height: 100%;
     margin: auto;
     display: flex;
