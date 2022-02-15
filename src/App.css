@@ -92,12 +92,13 @@ header {
 
 .card--specific-location {
     font-size: 25px;
-    padding: 3px 0 8px 0 ;
+    padding-top: 5px;
 }
 
 .card--dates {
     font-weight: bold;
     font-size: 10px;
+    margin-bottom: 4px;
 }
 
 .card--description {
@@ -129,10 +130,8 @@ header {
 
 .modal--close-btn {
     position: absolute;
-    /* margin-left: 15px; */
     margin-top: 15px;
     right: 9%;
-    /* justify-self: flex-end; */
     padding: 10px;
     background: none;
     border: none;
@@ -156,7 +155,6 @@ header {
 .modal--img-landscape {
     width: 100%;
     height: auto;
-
 }
 
 .modal--img-portrait {
