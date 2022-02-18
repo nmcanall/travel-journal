@@ -83,30 +83,30 @@ header {
     text-transform: uppercase;
     letter-spacing: .17em;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
 
 .card--google-maps {
     color: #918E9B;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .card--specific-location {
-    font-size: 25px;
+    font-size: 29px;
     padding-top: 5px;
 }
 
 .card--dates {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 4px;
 }
 
 .card--description {
     text-align: justify;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0;
     margin: 0;
 }
