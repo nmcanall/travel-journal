@@ -10,7 +10,7 @@ function TravelCard(props) {
             <div className="travel-card">
                 <div className="card--img-container">
                     <button className="card--modal-btn" onClick={() => setOpenModal(true)} >
-                        <img src={`./images/${props.img.tripPic}`} alt="highlight of trip" className="card--trip-pic"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/${props.img.tripPic}`} alt="highlight of trip" className="card--trip-pic"/>
                     </button>
                 </div>
                 {openModal && <MyModalCarousel 

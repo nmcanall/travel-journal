@@ -41,8 +41,8 @@ header {
 /* Travel Card styling */
 .travel-card {
     display: flex;
-    padding: 1% 5% 1% 2%;
-    align-items: center;
+    padding: 2% 5% 2% 2%;
+    align-items: top;
     color: #2B283A;
 }
 
@@ -60,7 +60,7 @@ header {
 
 .card--trip-pic {
     border-radius: 15px;
-    max-height: 168px;
+    max-height: 230px;
     max-width: 100%;
 }
 
