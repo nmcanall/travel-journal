@@ -10,7 +10,7 @@ function MyModalCarousel({closeModal, otherPics, specificLocation}) {
                         return <Carousel.Item className="modal--slide" key={pic.id}>
                             <img
                                 className="d-block modal--img"
-                                src={`./images/${pic.otherPic}`}
+                                src={`${process.env.PUBLIC_URL}/images/${pic.otherPic}`}
                                 alt="First slide"
                             />
                             <Carousel.Caption>

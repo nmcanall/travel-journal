@@ -36,8 +36,6 @@ header {
     margin-bottom: 0;
 }
 
-/* Locations styling */
-
 /* Travel Card styling */
 .travel-card {
     display: flex;
@@ -159,4 +157,115 @@ header {
     height: 100%;
     margin: auto;
     display: flex;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
+@media screen and (max-width: 720px) {
+    
+    .card--location-items {
+        font-size: 10px;
+    }
+    
+    .card--broad-location {
+        font-size: 12px;
+    }
+    
+    .card--google-maps {
+        font-size: 10px;
+    }
+    
+    .card--specific-location {
+        font-size: 24px;
+    }
+    
+    .card--dates {
+        font-size: 11px;
+    }
+    
+    .card--description {
+        font-size: 10px;
+    }
+
+    .card--trip-pic {
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait){
+
+    /* Header styling for mobile */
+
+    header {
+        margin-bottom: 0;
+    }
+
+    /* Travel card styling for mobile */
+
+    .travel-card {
+        flex-direction: column;
+        padding-inline: 0;
+        padding-top: 0;
+    }
+    
+    .card--img-container {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .card--trip-pic {
+        border-radius: 0;
+        min-width: 100%;
+        max-height: none;
+    }
+
+    .card--details-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px 30px 15px;
+    }
+    
+    .card--specific-location {
+        order: -1;
+        font-size: 32px;
+        padding-top: 5px;
+    }
+    
+    .card--location-items {
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .card--marker {
+        padding-bottom: 5px;
+    }
+    
+    .card--broad-location {
+        font-size: 18px;
+    }
+    
+    .card--google-maps {
+        font-size: 14px;
+    }
+    
+    .card--dates {
+        font-size: 14px;
+        margin-block: 5px 4px;
+    }
+    
+    .card--description {
+        font-size: 12px;
+    }
+
+    /* Modal styling for mobile */
+
+    .modal--container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal--img {
+        max-width: 100%;
+        height: auto;
+        align-self: center;
+    }
 }

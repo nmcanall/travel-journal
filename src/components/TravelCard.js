@@ -24,13 +24,11 @@ function TravelCard(props) {
                         <h4 className="card--broad-location">{props.location.broadLocation}</h4>
                         <a href={props.location.googleMapLink} className="card--google-maps" target="_blank" rel="noreferrer noopener">View on Google Maps</a>
                     </div>
-                    <div className="card--trip-items">
-                        <h3 className="card--specific-location">{props.location.specificLocation}</h3>
-                        <p className="card--dates">{props.dates.startDate} 
-                            {props.dates.endDate !== "" && ` - ${props.dates.endDate}`}
-                        </p>
-                        <p className="card--description">{props.description}</p>
-                    </div>
+                    <h3 className="card--specific-location">{props.location.specificLocation}</h3>
+                    <p className="card--dates">{props.dates.startDate} 
+                        {props.dates.endDate !== "" && ` - ${props.dates.endDate}`}
+                    </p>
+                    <p className="card--description">{props.description}</p>
                 </div>
             </div>
         </div>
